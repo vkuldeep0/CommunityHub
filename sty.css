@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5eaf5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #8458B3;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(160, 210, 235, 0.7), rgba(160, 210, 235, 0.7)), url('community.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6618ba;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a0d2eb;
+}
+
+#about {
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+#events, #classifieds, #volunteer {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#events h2, #classifieds h2, #volunteer h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.event, .classified, .opportunity {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event h3, .classified h3, .opportunity h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event p, .classified p, .opportunity p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #8458B3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* Existing CSS styles */
+
+.interactive-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.interactive-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.interactive-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.interactive-section form {
+    display: flex;
+    justify-content: center;
+}
+
+.interactive-section input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.interactive-section .btn {
+    padding: 10px 20px;
+    background-color: #51e2f5; /* Bright blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.interactive-section .btn:hover {
+    background-color: #9df9ef; /* Blue Green */
+}
+.section-summary {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.section-summary:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+/* Container for section summaries */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual section summary */
+.section-summary {
+    width: 300px; /* Adjust as needed */
+    margin: 20px;
+    text-align: center;
+}
+
+/* Image styling */
+.section-summary img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Hover effect */
+}
+
+/* Hover effect */
+.section-summary img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+/* Align the "Get Started" button */
+#hero .btn {
+    margin-top: 20px; /* Add margin to separate the button from the text */
+    animation: pulse 1s infinite alternate; /* Apply animation */
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Start scale */
+    }
+    100% {
+        transform: scale(1.1); /* End scale */
+    }
+}
